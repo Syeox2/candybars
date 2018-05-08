@@ -1,0 +1,16 @@
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+}
+
+#container{
+  display : grid;
+  grid-template-rows : 1fr 10fr;
+}
+
+.menu li{
+  display : inline-block;
+  float : right;
+  margin : 1em;
+}
